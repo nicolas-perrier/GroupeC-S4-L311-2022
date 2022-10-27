@@ -49,7 +49,6 @@
 	    {% for journee in _journees_meteo %}
 	    	<div class="jour">
 	    		<div class="numero_jour">
-<<<<<<< HEAD
 					{# 
 					 # Affiche la date sous le format d/m/Y 
 					 # 
@@ -66,13 +65,6 @@
 			    <div class="temperature {{ " " }} {{journee.meteo}}">
 					{# Affiche la température #}
 			      	<h2>{{journee.temp.day}}<span class="degree-symbol">°</span>C</h2>
-=======
-	    			<h2>Météo du &nbsp{{journee.dt|date('d/m/Y')}}</h2>
-	    		</div>
-
-			    <div class="temperature {{" "}} {{journee.meteo}}">
-			      <h2>{{journee.temp.day}}<span class="degree-symbol">°</span>C</h2>
->>>>>>> af3e748e3e5ea7dc0c573b38974df46639c83f69
 			    </div>
 
 			    <ul>
@@ -90,12 +82,12 @@
 					</li>
 			    </ul> 
 			    <div class="description">
-<<<<<<< HEAD
-					{# Affiche  #}
+					{# 
+					 # Affiche le temps 
+
+					 # first => renvoie le premier "élément"
+					#}
 			    	Description :&nbsp{{journee.weather|first.description|capitalize}}
-=======
-			    	Description : &nbsp{{journee.weather|first.description|capitalize}}
->>>>>>> af3e748e3e5ea7dc0c573b38974df46639c83f69
 			    </div>
 			</div>
 	    {% endfor %}
