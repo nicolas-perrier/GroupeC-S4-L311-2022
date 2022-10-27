@@ -27,7 +27,7 @@
 
 	<section class="contenu">
 	    <h1>
-	    	{{_ville.name|capitalize}}, {{_ville.country|upper}} 
+	    	{{_ville.name|capitalize}},&nbsp {{_ville.country|upper}} 
 	    	<a href="http://maps.google.com/maps?q={{_ville.coord.lat}},{{_ville.coord.lon}}" class="lk" target="_blank" title="Voir sur une carte">
 	    		Voir sur une carte
 	    	</a>
@@ -35,10 +35,10 @@
 	    {% for journee in _journees_meteo %}
 	    	<div class="jour">
 	    		<div class="numero_jour">
-	    			<h2>Météo du {{journee.dt|date('d/m/Y')}}</h2>
+	    			<h2>Météo du &nbsp{{journee.dt|date('d/m/Y')}}</h2>
 	    		</div>
 
-			    <div class="temperature {{journee.meteo}}">
+			    <div class="temperature {{" "}} {{journee.meteo}}">
 			      <h2>{{journee.temp.day}}<span class="degree-symbol">°</span>C</h2>
 			    </div>
 
@@ -54,7 +54,7 @@
 			      </li>
 			    </ul> 
 			    <div class="description">
-			    	Description : {{journee.weather|first.description|capitalize}}
+			    	Description : &nbsp{{journee.weather|first.description|capitalize}}
 			    </div>
 			</div>
 	    {% endfor %}
