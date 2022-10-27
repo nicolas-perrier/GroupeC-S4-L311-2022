@@ -1,0 +1,3 @@
+[27-Oct-2022 13:02:17 UTC] PHP Warning:  mb_substr() expects parameter 1 to be string, array given in C:\Users\nleco\Desktop\DockerFolder\GroupeC-S4\lib\Twig\Extension\Core.php on line 1300
+[27-Oct-2022 13:02:17 UTC] PHP Warning:  mb_strlen() expects parameter 1 to be string, array given in C:\Users\nleco\Desktop\DockerFolder\GroupeC-S4\lib\Twig\Extension\Core.php on line 1301
+[27-Oct-2022 13:02:17 UTC] PHP Warning:  mb_substr() expects parameter 1 to be string, array given in C:\Users\nleco\Desktop\DockerFolder\GroupeC-S4\lib\Twig\Extension\Core.php on line 1301

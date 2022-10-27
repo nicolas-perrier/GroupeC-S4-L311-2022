@@ -1,5 +1,7 @@
 <?php
 
+	include 'log/errors_log.php';
+
 	include 'inc.twig.php';
 
 	$template_index = $twig->loadTemplate('index.tpl');
