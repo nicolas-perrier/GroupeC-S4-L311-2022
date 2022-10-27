@@ -1,13 +1,3 @@
 [27-Oct-2022 13:02:17 UTC] PHP Warning:  mb_substr() expects parameter 1 to be string, array given in C:\Users\nleco\Desktop\DockerFolder\GroupeC-S4\lib\Twig\Extension\Core.php on line 1300
 [27-Oct-2022 13:02:17 UTC] PHP Warning:  mb_strlen() expects parameter 1 to be string, array given in C:\Users\nleco\Desktop\DockerFolder\GroupeC-S4\lib\Twig\Extension\Core.php on line 1301
 [27-Oct-2022 13:02:17 UTC] PHP Warning:  mb_substr() expects parameter 1 to be string, array given in C:\Users\nleco\Desktop\DockerFolder\GroupeC-S4\lib\Twig\Extension\Core.php on line 1301
-[27-Oct-2022 15:06:09 Europe/London] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unexpected character "&" in "index.tpl" at line 41 in /app/lib/Twig/Lexer.php:284
-Stack trace:
-#0 /app/lib/Twig/Lexer.php(216): Twig_Lexer->lexExpression()
-#1 /app/lib/Twig/Lexer.php(115): Twig_Lexer->lexVar()
-#2 /app/lib/Twig/Environment.php(470): Twig_Lexer->tokenize()
-#3 /app/lib/Twig/Environment.php(560): Twig_Environment->tokenize()
-#4 /app/lib/Twig/Environment.php(332): Twig_Environment->compileSource()
-#5 /app/index.php(7): Twig_Environment->loadTemplate()
-#6 {main}
-  thrown in /app/lib/Twig/Lexer.php on line 284
