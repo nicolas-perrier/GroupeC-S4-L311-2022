@@ -27,7 +27,7 @@
 
 	<section class="contenu">
 	    <h1>
-	    	{{_ville|capitalize}}, {{_ville.country|upper}} 
+	    	{{_ville.name|capitalize}}, {{_ville.country|upper}} 
 	    	<a href="http://maps.google.com/maps?q={{_ville.coord.lat}},{{_ville.coord.lon}}" class="lk" target="_blank" title="Voir sur une carte">
 	    		Voir sur une carte
 	    	</a>
